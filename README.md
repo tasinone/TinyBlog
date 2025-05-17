@@ -6,11 +6,15 @@ The project is ready to use out of the box, and more features are planned for fu
 
 ### Planned Features
 - Post editor toolbar
-- Archive page
-- Contact page
-- Like, comment, view counters, and share buttons
+- Archive page (done)
+- Contact page (done) 
+- Like, view counters, and share buttons (done)
 - Media upload from device
 - Replace basic text area with [Summernote](https://summernote.org/) rich text editor
+- Set up the comment system
+- Make the view counter work properly
+- Using SVG icon instead of the text
+- UI improvement 
 
 The goal is to keep the blog **lightweight**, **modern**, and **easy to use** without sacrificing functionality.
 
@@ -29,20 +33,10 @@ The goal is to keep the blog **lightweight**, **modern**, and **easy to use** wi
 
 To access the admin panel:
 
-- Go to: `yourdomain.tld/admin.php`
+- Go to: `yourdomain.tld/admin`
 - Default credentials:
-  - **Username:** `admin`
-  - **Password:** `password`
-
----
-
-## Custom Logo
-
-To set a custom logo:
-
-1. Upload a `logo.png` file to the root directory.
-2. The site title will automatically be replaced by your logo.
-3. To manually change the website name, edit the `<title>` tag in both `index.php` and `admin.php`.
+  - **Username:** `admin@login.com`
+  - **Password:** `admin123`
 
 ---
 
